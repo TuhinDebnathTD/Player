@@ -102,7 +102,7 @@ class MusicService: Service(), AudioManager.OnAudioFocusChangeListener {
             })
         }
 
-        this.startForeground(15, notification)
+        //this.startForeground(13, notification)
     }
     fun createMediaPlayer(){
         try {
